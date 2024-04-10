@@ -32,3 +32,7 @@
   border: 1px solid rgb(223, 231, 6);
   grid-area: footer;
 }
+
+.content img {
+  width: 100%;
+}
