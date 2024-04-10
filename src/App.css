@@ -1,12 +1,14 @@
 .app-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
   display: grid;
   grid-template-areas:
     "header header"
     "nav content"
     "footer footer";
-    grid-template-columns: repeat(60px, 1fr); 
+    grid-template-columns: repeat(2, 1fr); 
     grid-template-rows: repeat(2fr, 10fr);
-    grid-gap: 5px;
+    gap: 5px;
 }
 
 .header {
@@ -17,6 +19,7 @@
 .nav {
   border: 1px solid rgb(223, 231, 6);
   grid-area: nav;
+  max-width: 200px;
 }
 
 .content {
