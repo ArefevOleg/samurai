@@ -1,8 +1,8 @@
-import Star from "./Star";
+import { Rating } from "./Rating";
 
 
 
-export const Header = () => {
+export function Header () {
   return (
     <div className="header">
       <img
@@ -11,12 +11,7 @@ export const Header = () => {
         width="100px"
         height="100px"
       />
-
-      <Star selected={true}/>
-      <Star selected={true}/>
-      <Star selected={false}/>
-      <Star selected={false}/>
-      <Star selected={false}/>
+      <Rating value={3}/>
     </div>
   );
 };

@@ -1,7 +1,13 @@
+export function Star(props: any) {
+  console.log("Star rendering");
 
-
-const Star = (props: any) => {
-  return <span><b>star </b> </span>
-};
-
-export default Star;
+  if (props.selected === true) {
+    return (
+      <span>
+        <b>star </b>
+      </span>
+    );
+  } else {
+    return <span>star </span>;
+  }
+}
