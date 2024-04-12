@@ -1,3 +1,7 @@
+import Star from "./Star";
+
+
+
 export const Header = () => {
   return (
     <div className="header">
@@ -7,12 +11,12 @@ export const Header = () => {
         width="100px"
         height="100px"
       />
-      <>
-        <div>text</div>
-        <div>text</div>
-        <div>text</div>
-        <div>text</div>
-      </>
+
+      <Star selected={true}/>
+      <Star selected={true}/>
+      <Star selected={false}/>
+      <Star selected={false}/>
+      <Star selected={false}/>
     </div>
   );
 };

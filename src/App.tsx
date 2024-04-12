@@ -5,11 +5,12 @@ import { Footer } from "./components/Footer";
 import { Nav } from "./components/Nav";
 import { Profile } from "./components/Profile";
 
+
 const App = () => {
   console.log("App rendering");
   return (
     <div className="app-wrapper">
-      <Header />
+      <Header/>
       <Nav />
       <Profile />
       <Footer />
