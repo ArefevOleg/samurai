@@ -1,4 +1,10 @@
-export function Star(props: any) {
+
+type StarPropsType = {
+  selected: boolean
+}
+
+
+export function Star(props: StarPropsType) {
   console.log("Star rendering");
 
   if (props.selected === true) {
