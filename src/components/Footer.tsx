@@ -1,6 +1,6 @@
 
 
-export const Footer = () => {
+export function Footer  ()  {
   return (
     <div className="footer">
       footer

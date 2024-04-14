@@ -6,8 +6,7 @@ import { Nav } from "./components/Nav";
 import { Profile } from "./components/Profile";
 
 
-const App = () => {
-  console.log("App rendering");
+function App () {
   return (
     <div className="app-wrapper">
       <Header/>

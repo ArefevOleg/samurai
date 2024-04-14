@@ -1,5 +1,5 @@
 
-export const Profile = () => {
+export function Profile ()  {
   return (
         <main className="content">
         <div><img src="https://rd-prod.twic.pics/2023-09-06/PHdX6azeavPRGpPDFxXDB3e5TSoPGFOUZiEuqJLB.webp?twic=v1/resize=828/quality=73/focus=auto" alt="" /></div>
