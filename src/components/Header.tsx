@@ -1,4 +1,3 @@
-import { Rating } from "./Rating";
 
 export function Header() {
   return (
