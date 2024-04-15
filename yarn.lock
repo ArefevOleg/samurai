@@ -13255,7 +13255,7 @@ __metadata:
     redux-form: "npm:8.3.8"
     redux-thunk: "npm:2.4.1"
     reselect: "npm:4.1.5"
-    typescript: "npm:4.4.2"
+    typescript: "npm:^5.4.5"
     uuid: "npm:8.3.2"
     web-vitals: "npm:2.1.0"
   languageName: unknown
@@ -14256,23 +14256,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:4.4.2":
-  version: 4.4.2
-  resolution: "typescript@npm:4.4.2"
+"typescript@npm:^5.4.5":
+  version: 5.4.5
+  resolution: "typescript@npm:5.4.5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 722033d9c864e5657e6ff750b6378de644863e735c7a40714ffc7ee2c89bb5a1f1e0c5b1f2fb227b425a964ee9d572e9af7dff98ee7c378df4df0afa471fa74c
+  checksum: 2954022ada340fd3d6a9e2b8e534f65d57c92d5f3989a263754a78aba549f7e6529acc1921913560a4b816c46dce7df4a4d29f9f11a3dc0d4213bb76d043251e
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A4.4.2#optional!builtin<compat/typescript>":
-  version: 4.4.2
-  resolution: "typescript@patch:typescript@npm%3A4.4.2#optional!builtin<compat/typescript>::version=4.4.2&hash=bbeadb"
+"typescript@patch:typescript@npm%3A^5.4.5#optional!builtin<compat/typescript>":
+  version: 5.4.5
+  resolution: "typescript@patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=e012d7"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 5940248c81c507dc9acab32092f61dc8044e6ed5deb2f9ae12997ac10bf04dac2728f5ba04571431a4ab34cc8c812a3bbb6d258478885e409a82245072208d2e
+  checksum: 9cf4c053893bcf327d101b6c024a55baf05430dc30263f9adb1bf354aeffc11306fe1f23ba2f9a0209674359f16219b5b7d229e923477b94831d07d5a33a4217
   languageName: node
   linkType: hard
 
